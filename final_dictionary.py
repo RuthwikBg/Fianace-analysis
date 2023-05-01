@@ -16,8 +16,8 @@ total_sentences_count = []
 total_word_count = []
 total_number_count = []
 
-path = 'D:\\MSIS\\RA\\sentences dictionary\\test2\\'                # path to input folder
-out_path = 'D:\\MSIS\\RA\\sentences dictionary\\result\\'           # path to output folder
+path = ''                # path to input folder
+out_path = ''           # path to output folder
 filename = ''
 
 # dictionary containing all the words
