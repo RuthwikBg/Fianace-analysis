@@ -3,8 +3,8 @@ import glob
 import os
 
 
-path = "D:\\MSIS\\RA\\"                # provide the path to the folder containing text documnets
-outpath = "D:\\MSIS\\RA\\"             # path of output folder
+path = ""                # provide the path to the folder containing text documnets
+outpath = ""             # path of output folder
 
 def text_to_docx(text_file, docx_file):
     # Open the text file
