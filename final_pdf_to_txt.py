@@ -22,8 +22,8 @@ def pdf_to_txt(file):
         f.write(img_txt(img))
 
 
-path = 'D:\\MSIS\\RA\\'                           # folder where the .pdf files are stored
-outpath = "D:\\MSIS\\RA\\"                        # path of output folder
+path = ''                           # folder where the .pdf files are stored
+outpath = ""                        # path of output folder
 try:
     for i, doc in enumerate(glob.iglob(path + "*.pdf")):
         try:
