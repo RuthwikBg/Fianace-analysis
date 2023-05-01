@@ -18,8 +18,8 @@ def text_to_docx(text, docx_file):
     doc.save(docx_file)
 
 
-path = 'D:\\MSIS\\RA\\jpg files\\'          # path of folder containing images
-out = 'D:\\MSIS\\RA\\jpg files\\docx\\'     # path of folder to store final docx files
+path = ''          # path of folder containing images
+out = ''     # path of folder to store final docx files
 
 
 try:
