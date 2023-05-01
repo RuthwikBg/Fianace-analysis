@@ -14,7 +14,7 @@ final_list_word_count = []
 numbers = []
 
 # contains path of folder containing docx files
-path = "D:\\MSIS\\RA\\Form C pdf-20230119T082412Z-001\\docx files\\"
+path = "add folder path here"
 
 
 # counts dates
@@ -91,4 +91,4 @@ finally:
 # stores all lists in dataframe
 df = pd.DataFrame.from_dict({'Filename':final_list_files,'Sentence count':final_list_sentences_count,'Dates count':final_list_date_count,'Word count':final_list_word_count,'Number count':numbers})
 # creates excel file and adds the data in data frame to the file
-df.to_excel('D:\\MSIS\\RA\\ncount.xlsx', header=True, index=False)
+df.to_excel( path , header=True, index=False)
