@@ -14,8 +14,8 @@ final_list_files = []
 final_list_sentences_count = []
 
 # intializing input and output folders
-path = "D:\\MSIS\\RA\\FS2018docx-tag-20230309T072019Z-001\\Tagged\\"
-out_path = "D:\\MSIS\\RA\\FS2018docx-tag-20230309T072019Z-001\\output\\"
+path = ""
+out_path = ""
 
 
 # removes dates and values equal to zero contained in the list
@@ -151,4 +151,4 @@ df = pd.DataFrame.from_dict(
      'Notes numbers': notes_numbers, 'Notes sentences': final_list_sentences_count})
 
 # creates an excel file and stores all data in dataframe
-df.to_excel("D:\\MSIS\\RA\\FS2018docx-tag-20230309T072019Z-001\\count.xlsx", header=True, index=False)
+df.to_excel( "path" , header=True, index=False)
